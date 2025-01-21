@@ -1,0 +1,26 @@
+{
+  "name": "Ashish Kumar Maurya - Portfolio",
+  "short_name": "Ashish's Portfolio",
+  "description": "Frontend Developer Portfolio showcasing React.js and modern web development projects",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#050816",
+  "icons": [
+    {
+      "src": "/favicon16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
