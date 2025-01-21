@@ -1,4 +1,15 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /.git
+Disallow: /.htaccess
 
-Sitemap: https://ashishkumarmaurya.in/sitemap.xml
+# Prevent access to sensitive files
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+
+Sitemap: https://www.ashishkumarmaurya.in/sitemap.xml
