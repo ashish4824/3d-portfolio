@@ -13,6 +13,7 @@ import {
 } from "./components";
 import Banner from "./components/banner";
 import Footer from "./components/footer";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 // App
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <GoogleAnalytics />
       <Banner hide={hide} setHide={setHide} />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
@@ -29,7 +31,7 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        {/* <Works /> */}
+        {/* <Works />E99C-EC11 */}
         <Feedbacks />
 
         {/* Contact */}
