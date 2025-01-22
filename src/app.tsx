@@ -4,7 +4,7 @@ import { Suspense, lazy } from "react";
 import { Navbar, StarsCanvas } from "./components";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Banner from "./components/banner";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // Lazy load components
 const About = lazy(() => import("./components/about"));
 const Contact = lazy(() => import("./components/contact"));
@@ -34,6 +34,7 @@ const App = () => {
           <About />
           <Experience />
           <Tech />
+          <SpeedInsights/>
           {/* <Works />E99C-EC11 */}
           <Feedbacks />
         </Suspense>
