@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /.git
+Disallow: /.htaccess
+
+# Allow important files
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Prevent access to sensitive files
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://www.ashishkumarmaurya.in/sitemap.xml

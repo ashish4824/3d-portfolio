@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+9cf40c93078e18b7eff3e1cb7a6de46e847e4565 refs/remotes/origin/dependabot/npm_and_yarn/framer-motion-12.4.3
+ae6b93ae9e52adb99da106c51175a76c064e5912 refs/remotes/origin/dependabot/npm_and_yarn/react-three/drei-9.121.4
+b9211281f88c5d3eea7c7de37f941d3edd184ae0 refs/remotes/origin/dependabot/npm_and_yarn/react-three/drei-9.121.5
+9f95ba479b19abd1cc7162095498e994cc86c815 refs/remotes/origin/dependabot/npm_and_yarn/tailwind-merge-3.0.1
+b25534656e0899a299c487b6e58c914dc95a6064 refs/remotes/origin/dependabot/npm_and_yarn/tailwindcss-4.0.6
+99e8df572df74e20538a215cd8ec749c2cd72758 refs/remotes/origin/dependabot/npm_and_yarn/vite-6.1.0
+2db90f681c5d4eb876fd8c79475bddae023ef3b0 refs/remotes/origin/master
