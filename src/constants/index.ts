@@ -1,6 +1,3 @@
-// Contains constant data for using in website
-// ! Don't remove anything from here if not sure
-
 import {
   mobile,
   backend,
