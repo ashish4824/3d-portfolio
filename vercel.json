@@ -53,5 +53,23 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/assets/(.*)",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "source": "/(.*)\\.(js|css|svg|jpg|jpeg|png|gif|ico|json|woff2|woff|ttf)",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
