@@ -34,3 +34,4 @@ dist-ssr
   "rewrites": [ ... ],
   "routes": [ ... ] // This should be removed if rewrites are present
 }.vercel
+.vercel
