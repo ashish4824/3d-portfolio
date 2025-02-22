@@ -30,4 +30,7 @@ dist-ssr
 *.sw?
 
 # Local Netlify folder
-.netlify
+{
+  "rewrites": [ ... ],
+  "routes": [ ... ] // This should be removed if rewrites are present
+}.vercel
