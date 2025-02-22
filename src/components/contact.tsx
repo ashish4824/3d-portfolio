@@ -27,7 +27,7 @@ export const Contact = () => {
     e.preventDefault();
     setLoading(true);
    await axios
-      .post("http://localhost:4000/api/v1/Ashish", form)
+      .post("https://lawyaltech-git-main-ashish4824s-projects.vercel.app", form)
       .then((result:object) => {
         setMessage("Form submitted successfully!");
       })
