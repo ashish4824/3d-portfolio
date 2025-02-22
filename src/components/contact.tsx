@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useState, useRef, type FormEvent, type ChangeEvent } from "react";
-import axios from "axios";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
@@ -22,28 +21,37 @@ export const Contact = () => {
 
     setForm({ ...form, [name]: value });
   };
-
-  const handleSubmit = async(e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-   await axios
-      .post("https://lawyaltech-git-main-ashish4824s-projects.vercel.app", form)
-      .then((result:object) => {
-        setMessage("Form submitted successfully!");
-      })
-      .catch((err:object) => {
-        console.log(err);
+  
+    try {
+      const response = await fetch("https://lawyaltech-git-main-ashish4824s-projects.vercel.app", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
       });
-    // if (!validateForm()) return false;
+  
+      if (response.ok) {
+        setMessage("Form submitted successfully!");
+      } else {
+        console.log("Error:", await response.json());
+      }
+    } catch (err) {
+      console.error("Request failed:", err);
+    }
+  
     setLoading(false);
-    
+  
     setForm({
       name: "",
       email: "",
       message: "",
     });
   };
-
+  
   return (
     <SectionWrapper idName="contact">
       <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
