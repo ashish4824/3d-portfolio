@@ -191,82 +191,169 @@ export const TESTIMONIALS = [
     image: user3,
   },
 ] as const;
-
-// Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Fares Journey",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "A flight booking website that allows users to search, compare, and book flights with an intuitive and responsive UI.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "mongodb",
         color: "green-text-gradient",
+        
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
+        name: "express",
+        color: "red-text-gradient",
       },
       {
         name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
-  },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+    // image: faresJourneyImage,
+    source_code_link: "https://github.com/yourusername/fares-journey",
+    live_site_link: "https://www.faresjourney.com/",
   },
   {
-    name: "TikTok Clone",
+    name: "Chat Application",
     description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+      "A real-time chat application that allows users to send messages instantly with a smooth and engaging UI.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+          
+        },
+        {
+          name: "express",
+          color: "red-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+    // image: chatAppImage,
+    source_code_link: "https://github.com/yourusername/chat-app",
+    live_site_link: "https://ashishchat.netlify.app/",
+  },
+  {
+    name: "Admin Panel (Flight Booking)",
+    description:
+      "A feature-rich admin dashboard for managing flight bookings, users, and data analytics.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+          
+        },
+        {
+          name: "express",
+          color: "red-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+    // image: adminPanelImage,
+    source_code_link: "https://github.com/yourusername/admin-panel",
+    live_site_link: "https://comfy-licorice-948dd0.netlify.app/",
+  },
+  {
+    name: "SSG Computers",
+    description:
+      "A website for a refurbished laptop and accessories business, allowing customers to browse and purchase products.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+          
+        },
+        {
+          name: "express",
+          color: "red-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+    // image: ssgComputersImage,
+    source_code_link: "https://github.com/yourusername/ssg-computers",
+    live_site_link: "https://ssgcomputers.in/",
+  },
+  {
+    name: "YouTube Clone",
+    description:
+      "A fully functional YouTube clone with video streaming, user authentication, and comment features.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+          
+        },
+        {
+          name: "express",
+          color: "red-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+    // image: youtubeCloneImage,
+    source_code_link: "https://github.com/yourusername/youtube-clone",
+    live_site_link: "https://your-youtube-clone-link.com/",
+  },
+  {
+    name: "Full Stack Job Portal",
+    description:
+      "A full-stack job portal application where users can create profiles, post jobs, apply for jobs, and manage applications.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
@@ -274,57 +361,44 @@ export const PROJECTS = [
         color: "green-text-gradient",
       },
       {
+        name: "DynamoDB",
+        color: "pink-text-gradient",
+      },
+      {
         name: "tailwindcss",
+        color: "green-text-gradient",
+
+      },
+      {
+        name: "Lambda",
         color: "pink-text-gradient",
       },
     ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    // image: jobPortalImage,
+    source_code_link: "https://github.com/yourusername/job-portal",
+    live_site_link: "https://your-job-portal-link.com/",
   },
   {
-    name: "Cryptoverse",
+    name: "Custom React Notification Library (NPM Package)",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "A lightweight React notification library published on NPM, allowing developers to easily integrate customizable notifications into their projects.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "npm",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    // image: npmPackageImage,
+    source_code_link: "https://github.com/yourusername/react-notification-lib",
+    live_site_link: "https://www.npmjs.com/package/react-notification-lib",
   },
 ] as const;
 
